@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: rober
+    password: superhardpass12
+    url: jdbc:sqlserver://localhost;database=bestpractices;trustServerCertificate=true;
+#    url: jdbc:sqlserver://localhost\MSSQLSERVER01:1433;database=recurrent_db;trustServerCertificate=true;
+  jpa:
+    hibernate:
+      ddl-auto: update
